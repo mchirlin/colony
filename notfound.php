@@ -1,5 +1,5 @@
-<?php include("includes/header"); ?>
-<?php include("includes/navigation"); ?>
+<?php include("includes/header.php"); ?>
+<?php include("includes/navigation.php"); ?>
 
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -11,4 +11,4 @@
 		</div>
 	</div>
 	
-<?php include("includes/footer"); ?>
+<?php include("includes/footer.php"); ?>
