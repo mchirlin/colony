@@ -12,24 +12,24 @@
 	<!--script src="js/less-1.3.3.min.js"></script-->
 	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
 	
-	<link href="css/bootstrap.slate.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="http://colonyultimate.com/css/bootstrap.slate.min.css" rel="stylesheet">
+	<link href="http://colonyultimate.com/css/style.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
+    <script src="http://colonyultimate.com/js/html5shiv.js"></script>
   <![endif]-->
 
   <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://colonyultimate.com/img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://colonyultimate.com/img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://colonyultimate.com/img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="http://colonyultimate.com/img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="http://colonyultimate.com/img/favicon.png">
   
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="http://colonyultimate.com/js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://colonyultimate.com/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://colonyultimate.com/js/scripts.js"></script>
 	<script>
 	  $(document).ready(function(){
 	    $('.carousel').carousel();
