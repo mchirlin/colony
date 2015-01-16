@@ -1,18 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title>Colony Ultimate</title>
-	<meta content="Official home of Colony, the premiere mens Ultimate Frisbee team in Australia" name="description" />
-	<meta content="Benjamin Sutas" name="author" />
-	<link href="style.css" rel="stylesheet" />
-	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-</head>
-<body>
-<div>
-<h1>Colony Ultimate</h1>
+  <meta charset="utf-8">
+  <title>Bootstrap 3, from LayoutIt!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<h3>Coming soon!!</h3>
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1607303849498270&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Link</a>
+						</li>
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div> <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li>
+							<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+			<div class="jumbotron">
+				<h2 class="font_2">
+					<span>About Colony</span>
+				</h2>
+				
+				<p>
+					<span>Formed in 2010 in Sydney, Colony is Australia's premier men's Ultimate club.</span>
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-4 column">
+			<a class="twitter-timeline" href="https://twitter.com/colonyultimate" data-widget-id="555969728133361664">Tweets by @colonyultimate</a>
+		</div>
+		<div class="col-md-4 column">
+			<h2>
+				Heading
+			</h2>
+			<p>
+				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			</p>
+			<p>
+				<a class="btn" href="#">View details »</a>
+			</p>
+		</div>
+		<div class="col-md-4 column">
+			<h2>
+				Heading
+			</h2>
+			<p>
+				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+			</p>
+			<p>
+				<a class="btn" href="#">View details »</a>
+			</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>
