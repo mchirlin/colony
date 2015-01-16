@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://colonyultimate.com/img/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://colonyultimate.com/img/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="http://colonyultimate.com/img/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="http://colonyultimate.com/img/favicon.png">
+  <link rel="shortcut icon" href="http://colonyultimate.com/img/favicon.ico">
   
 	<script type="text/javascript" src="http://colonyultimate.com/js/jquery.min.js"></script>
 	<script type="text/javascript" src="http://colonyultimate.com/js/bootstrap.min.js"></script>
