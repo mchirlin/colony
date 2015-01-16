@@ -1,0 +1,48 @@
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,img {
+  border: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  background: url(https://scontent-a-sin.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/s720x720/10427992_749597975094378_4538844819089761679_n.jpg?oh=4af419d3056ef04d11cef8d916815046&oe=552EC63E) center top no-repeat;
+  background-size: cover;
+  font-family: "Helvetica Neue",Helvetica, Arial;
+  height: 100%;
+}
+
+h1 {
+  font-family: Georgia, helvetica, arial;
+  color: #fff;
+  font-size: 48px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  color: #2a6888;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+
+h3 {
+  font-family: Georgia, helvetica, arial;
+  font-size: 16px;
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 85px;
+  text-align: center;
+}
