@@ -62,7 +62,7 @@
 							<a href="http://colonyultimate.com/history.html">History</a>
 						</li>
 						<li>
-							<a href="http://colonyultimate.com/contactus.html">Contact</a>
+							<a href="http://colonyultimate.com/contact.php">Contact</a>
 						</li>
 					</ul>
 					<form class="navbar-form navbar-left" role="search">
