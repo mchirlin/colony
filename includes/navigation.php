@@ -9,10 +9,10 @@
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="<?php if($page="home") "active"?>">
+						<li class="<?php if($page == "home") "active"?>">
 							<a href="http://colonyultimate.com">Home</a>
 						</li>
-						<li class="<?php if($page="results") "active"?> dropdown">
+						<li class="<?php if($page == "results") "active"?> dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Results<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
@@ -35,7 +35,7 @@
 								</li>
 							</ul>
 						</li>
-						<li class="<?php if($page="roster") "active"?> dropdown">
+						<li class="<?php if($page == "roster") "active"?> dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Roster<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
@@ -58,10 +58,10 @@
 								</li>
 							</ul>
 						</li>
-						<li class="<?php if($page="history") "active"?>">
+						<li class="<?php if($page == "history") "active"?>">
 							<a href="http://colonyultimate.com/history.html">History</a>
 						</li>
-						<li class="<?php if($page="contact") "active"?>">
+						<li class="<?php if($page == "contact") "active"?>">
 							<a href="http://colonyultimate.com/contact.php">Contact</a>
 						</li>
 					</ul>
