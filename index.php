@@ -44,6 +44,7 @@
 			<a class="twitter-timeline" href="https://twitter.com/colonyultimate" data-widget-id="555969728133361664">Tweets by @colonyultimate</a>
 		</div>
 		<div class="col-md-4 column">
+		  <!-- TODO: Update following content -->
 			<h2>
 				Heading
 			</h2>
@@ -55,6 +56,7 @@
 			</p>
 		</div>
 		<div class="col-md-4 column">
+			<!-- TODO: Update following content -->
 			<h2>
 				Heading
 			</h2>

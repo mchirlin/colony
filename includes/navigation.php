@@ -12,6 +12,7 @@
 						<li class="<?php if($page == "home") echo "active"?>">
 							<a href="http://colonyultimate.com">Home</a>
 						</li>
+						<!-- TODO: Create Results Pages -->
 						<li class="<?php if($page == "results") echo "active"?> dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Results<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
@@ -35,6 +36,7 @@
 								</li>
 							</ul>
 						</li>
+						<!-- TODO: Create Roster Pages -->
 						<li class="<?php if($page == "roster") echo "active"?> dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Roster<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
@@ -58,6 +60,7 @@
 								</li>
 							</ul>
 						</li>
+						<!-- TODO: Create History Page -->
 						<li class="<?php if($page == "history") echo "active"?>">
 							<a href="http://colonyultimate.com/history.html">History</a>
 						</li>
