@@ -4,9 +4,7 @@
   <div class="row clearfix">
     <div class="col-md-12 column">
       <div class="jumbotron">
-        <div class="row clearfix">
-          <h2>Contact Us</h2> 
-        </div>
+        <p><h2>Contact Us</h2></p> 
         <div class="row clearfix">   
           <div class="col-md-8 column">   
             <img class="img-responsive" src="http://colonyultimate.com/photos/contactTeam.jpg">
