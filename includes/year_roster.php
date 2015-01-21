@@ -1,20 +1,11 @@
 <?php
-  $playerFile = fopen("data/players.csv","r");
-  $players = array();
-  
-  while(! feof($playerFile)) {
-    $array = fgetcsv($playerFile);
-    $players[$array[0]] = $array;
-  }
-  
-  fclose($playerFile);
-	
+
 	$rosterFile = fopen("data/roster.csv","r");
   $roster = array();
   
   while(! feof($rosterFile)) {
     $array = fgetcsv($rosterFile);
-    if($array[1] == $year) $roster[$array[2]] = $array;
+    if($array[0] == $year) $roster[$array[1]] = $array;
   }
   
   fclose($rosterFile);
@@ -25,18 +16,18 @@
 	$dCutters = array();
 	
 	foreach ($roster as $key => $value) {
-	  switch ($players[$key][5]) {
+	  switch ($value[5]) {
 	    case 'OH':
-	      array_push($oHandlers, $players[$key]);
+	      array_push($oHandlers, $value);
 	      break;
 	    case 'OC':
-	      array_push($oCutters, $players[$key]);
+	      array_push($oCutters, $value);
 	      break;
 	    case 'DH':
-	      array_push($dHandlers, $players[$key]);
+	      array_push($dHandlers, $value);
 	      break;
 	    case 'DC':
-	      array_push($dCutters, $players[$key]);
+	      array_push($dCutters, $value);
 	      break;
 	  }
 	}
@@ -48,7 +39,7 @@
     <h3 class="panel-title" contenteditable="true">Offensive Handlers</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($oHandlers as $player) { echo $player[1]; echo "<br />"; } ?>
+    <?php foreach($oHandlers as $player) include("includes/player_bio.php"); ?>
   </div>
 </div>
 
@@ -57,7 +48,7 @@
     <h3 class="panel-title" contenteditable="true">Offensive Cutters</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($oCutters as $player) { echo $player[1]; echo "<br />"; } ?>
+    <?php foreach($oCutters as $player) include("includes/player_bio.php"); ?>
   </div>
 </div>
 
@@ -66,7 +57,7 @@
     <h3 class="panel-title" contenteditable="true">Defensive Handlers</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($dHandlers as $player) { echo $player[1]; echo "<br />"; } ?>
+    <?php foreach($dHandlers as $player) include("includes/player_bio.php"); ?>
   </div>
 </div>
 
@@ -75,6 +66,6 @@
     <h3 class="panel-title" contenteditable="true">Defensive Cutters</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($dCutters as $player) { echo $player[1]; echo "<br />"; } ?>
+    <?php foreach($dCutters as $player) include("includes/player_bio.php"); ?>
   </div>
 </div>

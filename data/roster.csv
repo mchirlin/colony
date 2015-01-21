@@ -1,36 +1,36 @@
-ID,Year,PlayerID,Team
-1,2010,1,Pillage
-2,2010,2,Pillage
-3,2010,3,Pillage
-4,2010,4,Pillage
-5,2010,5,Pillage
-6,2010,6,Pillage
-7,2010,7,Pillage
-8,2010,8,Pillage
-9,2010,9,Pillage
-10,2010,10,Pillage
-11,2010,11,Pillage
-12,2010,12,Pillage
-13,2010,13,Pillage
-14,2010,14,Pillage
-15,2010,15,Pillage
-16,2010,16,Pillage
-17,2010,17,Plunder
-18,2010,18,Plunder
-19,2010,19,Plunder
-20,2010,20,Plunder
-21,2010,21,Plunder
-22,2010,22,Plunder
-23,2010,23,Plunder
-24,2010,24,Plunder
-25,2010,25,Plunder
-26,2010,26,Plunder
-27,2010,27,Plunder
-28,2010,28,Plunder
-29,2010,29,Plunder
-30,2010,30,Plunder
-31,2010,31,Plunder
-32,2010,32,Plunder
-33,2010,33,Plunder
-34,2010,34,Plunder
-35,2010,35,Plunder
+Year,Name,Team,Number,Bio,Position
+2010,Peter Gardner,Pillage,1,,OH
+2010,Andrew Glover,Pillage,2,,OH
+2010,Angus Keenan,Pillage,3,,OH
+2010,Brett Latham,Pillage,4,,DH
+2010,Calan Spielman,Pillage,5,,DH
+2010,David Rountree,Pillage,6,,DH
+2010,Gavin Moore,Pillage,7,,DH
+2010,James Yorston,Pillage,8,,OC
+2010,Max Halden,Pillage,9,,OC
+2010,Nicholas Dowle,Pillage,10,,OC
+2010,Rory Connell,Pillage,11,,DC
+2010,Sacha Vidler,Pillage,12,,DC
+2010,Stephen Antonopoulos,Pillage,13,,DC
+2010,Tim Gee,Pillage,14,,DC
+2010,Tom Flanagan,Pillage,15,,DC
+2010,Tiger Webb,Pillage,16,,DC
+2010,Anthony Dowle,Plunder,17,,OH
+2010,Ashley Symons,Plunder,18,,OH
+2010,Charles Blumer,Plunder,19,,OH
+2010,Eway Wymer,Plunder,20,,DH
+2010,Jason Carr,Plunder,21,,DH
+2010,Jens Meyer,Plunder,22,,DH
+2010,Jimmy Todd-Hill,Plunder,23,,DH
+2010,Joe Leung,Plunder,24,,OC
+2010,Jonathan Potts,Plunder,25,,OC
+2010,Ken Shepherd,Plunder,26,,OC
+2010,Mark Evans,Plunder,27,,DC
+2010,Matthew Faulkner,Plunder,28,,DC
+2010,Michael Thomas,Plunder,29,,DC
+2010,Nathan Jones,Plunder,30,,DC
+2010,Nick Dousset,Plunder,31,,DC
+2010,Paul Denyer,Plunder,32,,DC
+2010,Peter Blakeley,Plunder,33,,DC
+2010,Peter Liddicoat,Plunder,34,,DC
+2010,Richard Druce,Plunder,35,,DC
