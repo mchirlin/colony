@@ -1,16 +1,48 @@
 <?php
-  $file = fopen("data/players.csv","r");
-
+  $year = '2015';
+  $playerFile = fopen("data/players.csv","r");
   $players = array();
-
-  while(! feof($file)) {
-    $array = fgetcsv($file);
-    array_push($players, $array[0] => $array);
-   }
-   
-   print_r($players);
-
-  fclose($file);
+  
+  while(! feof($playerFile)) {
+    $array = fgetcsv($playerFile);
+    $players[$array[0]] = $array;
+  }
+  
+  fclose($playerFile);
+	
+	$rosterFile = fopen("data/roster.csv","r");
+  $roster = array();
+  
+  while(! feof($rosterFile)) {
+    $array = fgetcsv($rosterFile);
+    if($array[1] == $year) $roster[$array[2]] = $array;
+  }
+  
+  fclose($rosterFile);
+	
+	$oHandlers = array();
+	$oCutters = array();
+	$dHandlers = array();
+	$dCutters = array();
+	
+	foreach ($roster as $key => $value) {
+	  switch ($players[$key][5]) {
+	    case 'OH':
+	      array_push($oHandlers, $players[$key]);
+	      break;
+	    case 'OC':
+	      array_push($oCutters, $players[$key]);
+	      break;
+	    case 'DH':
+	      array_push($dHandlers, $players[$key]);
+	      break;
+	    case 'DC':
+	      array_push($dCutters, $players[$key]);
+	      break;
+	  }
+	}
+	
+	print_r($oHandlers);
 ?>
 
 
