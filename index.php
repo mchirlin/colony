@@ -44,13 +44,7 @@
 		  <a class="twitter-timeline" href="https://twitter.com/ColonySYD" data-widget-id="555969728133361664">Tweets by @ColonySYD</a>
 		</div>
 		<div class="col-md-4 column">
-		  <!-- TODO: Update following content -->
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
+			<div class="fb-like-box" data-href="https://www.facebook.com/ColonyUltimate" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 			<p>
 				<a class="btn" href="#">View details</a>
 			</p>
