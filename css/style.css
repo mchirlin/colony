@@ -60,3 +60,14 @@
 .sponsor-details .entry-content {	
 	margin-top: 10px;
 }
+
+/* PLAYER */
+
+.player {
+  display: block;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 16px;
+  width: 100px;
+  position: relative;
+}
