@@ -27,7 +27,7 @@
 							<a href="http://colonyultimate.com/contact.php">Contact</a>
 						</li>
 						<li class="<?php if($page == "sponsors") echo "active"?>">
-							<a href="http://colonyultimate.com/sponsors.php">Contact</a>
+							<a href="http://colonyultimate.com/sponsors.php">Sponors</a>
 						</li>
 					</ul>
 					<!--<form class="navbar-form navbar-left" role="search">
