@@ -83,5 +83,40 @@
   </div>
   <div class="col-md-6 column">
   	<img class="img-responsive" src="http://colonyultimate.com/img/plunder.png">
+  	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" contenteditable="true">Offensive Handlers</h3>
+      </div>
+      <div class="panel-body" contenteditable="true">
+        <?php foreach($oHandlersPlun as $player) include("includes/player_bio.php"); ?>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" contenteditable="true">Offensive Cutters</h3>
+      </div>
+      <div class="panel-body" contenteditable="true">
+        <?php foreach($oCuttersPlun as $player) include("includes/player_bio.php"); ?>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" contenteditable="true">Defensive Handlers</h3>
+      </div>
+      <div class="panel-body" contenteditable="true">
+        <?php foreach($dHandlersPlun as $player) include("includes/player_bio.php"); ?>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" contenteditable="true">Defensive Cutters</h3>
+      </div>
+      <div class="panel-body" contenteditable="true">
+        <?php foreach($dCuttersPlun as $player) include("includes/player_bio.php"); ?>
+      </div>
+    </div>
   </div>
-</div
+</div>
