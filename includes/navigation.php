@@ -74,9 +74,11 @@
 						</div> <button type="submit" class="btn btn-default">Submit</button>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Link</a>
-						</li>
+						<ul id="social">
+							<li class="facebook"><a href="http://facebook.com/ColonyUltimate" title="Facebook" target="_blank">Facebook</a></li>
+							<li class="twitter"><a href="http://twitter.com/colonyultimate" title="Twitter" target="_blank">Twitter</a></li>
+							<li class="youtube"><a href="#" title="YouTube" target="_blank">YouTube</a></li>
+            </ul>
 					</ul>
 				</div>
 			</nav>

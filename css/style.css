@@ -1,27 +1,35 @@
-.social_bookmarks{
-  border:medium none;
-  display:block;
-  float:right;
-  list-style-type: none;
-  list-style-position: outside;
+#header #social {
+	position: absolute;
+	//left: -48px;
+	//top: 182px;
+	right: 300px;
+	bottom: 10px;
 }
-
-.social_bookmarks li {
-  float:left;
-  margin:0 7px 0 0;
-  width:35px;
+#header #social li {
+	display: block;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-indent: -999px;
+	float: left;
 }
-
-.social_bookmarks li a {
-  border:medium none;
-  display:block;
-  float:left;
-  height: 35px;
-  padding:0;
-  text-indent:-9999px;
-  width:35px;
-  outline: none;
+#header #social li a {
+	background: url(images/social_media_array1.png) no-repeat 0 0;
+	display: block;
+	height: 34px;
+	width: 34px;
 }
-
-.social_bookmarks .facebook a{background: transparent url('https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png') 0 0  no-repeat;}
-.social_bookmarks .twitter a{background: transparent url('https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png') 0 0  no-repeat;}
+#header #social .facebook a { background-position: 0 0; }
+#header #social .twitter a { background-position: -34px 0; }
+#header #social .youtube a { background-position: -68px  0; }
+#header #social .gplus a { background-position: -102px 0; }
+#header #social .rssfeed a { background-position: -136px 0; }
+#header #social .facebook a:hover { background-position: 0 -34px; }
+#header #social .twitter a:hover { background-position: -34px -34px; }
+#header #social .youtube a:hover { background-position: -68px -34px; }
+#header #social .gplus a:hover { background-position: -102px -34px; }
+#header #social .rssfeed a:hover { background-position: -136px -34px; }
+#header #social .facebook a:active { background-position: 0 -68px; }
+#header #social .twitter a:active { background-position: -34px -68px; }
+#header #social .youtube a:active { background-position: -68px -68px; }
+#header #social .gplus a:active { background-position: -102px -68px; }
+#header #social .rssfeed a:active { background-position: -136px -68px; }
