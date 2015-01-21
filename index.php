@@ -41,7 +41,7 @@
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-4 column">
-			<a class="twitter-timeline" href="https://twitter.com/colonyultimate" data-widget-id="555969728133361664">Tweets by @colonyultimate</a>
+		  <a class="twitter-timeline" href="https://twitter.com/ColonySYD" data-widget-id="555969728133361664">Tweets by @ColonySYD</a>
 		</div>
 		<div class="col-md-4 column">
 		  <!-- TODO: Update following content -->
