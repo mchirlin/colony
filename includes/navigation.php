@@ -36,29 +36,8 @@
 								</li>
 							</ul>
 						</li>
-						<!-- TODO: Create Roster Pages -->
-						<li class="<?php if($page == "roster") echo "active"?> dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Roster<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="http://colonyultimate.com/roster/2015.html">2015</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/roster/2014.html">2014</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/roster/2013.html">2013</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/roster/2012.html">2012</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/roster/2011.html">2011</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/roster/2010.html">2010</a>
-								</li>
-							</ul>
+						<li class="<?php if($page == "team") echo "active"?>">
+							<a href="http://colonyultimate.com/team.php">Team</a>
 						</li>
 						<!-- TODO: Create History Page -->
 						<li class="<?php if($page == "history") echo "active"?>">
