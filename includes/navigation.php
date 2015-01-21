@@ -40,6 +40,7 @@
 							<li class="facebook"><a href="http://facebook.com/ColonyUltimate" title="Facebook" target="_blank">Facebook</a></li>
 							<li class="twitter"><a href="http://twitter.com/ColonySYD" title="Twitter" target="_blank">Twitter</a></li>
 							<li class="youtube"><a href="#" title="YouTube" target="_blank">YouTube</a></li>
+							<li class="blogger"><a href="http://colonyclubs.blogspot.com.au/" title="Blogger" target="_blank">Blogger</a></li>
             </ul>
 					</ul>
 				</div>

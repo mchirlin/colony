@@ -18,16 +18,19 @@
 .navbar #social .youtube a { background-position: -68px  0; }
 .navbar #social .gplus a { background-position: -102px 0; }
 .navbar #social .rssfeed a { background-position: -136px 0; }
+.navbar #social .blogger a { background-position: -170px 0; }
 .navbar #social .facebook a:hover { background-position: 0 -34px; }
 .navbar #social .twitter a:hover { background-position: -34px -34px; }
 .navbar #social .youtube a:hover { background-position: -68px -34px; }
 .navbar #social .gplus a:hover { background-position: -102px -34px; }
 .navbar #social .rssfeed a:hover { background-position: -136px -34px; }
+.navbar #social .blogger a:hover { background-position: -170px -34px; }
 .navbar #social .facebook a:active { background-position: 0 -68px; }
 .navbar #social .twitter a:active { background-position: -34px -68px; }
 .navbar #social .youtube a:active { background-position: -68px -68px; }
 .navbar #social .gplus a:active { background-position: -102px -68px; }
 .navbar #social .rssfeed a:active { background-position: -136px -68px; }
+.navbar #social .blogger a:active { background-position: -170px -68px; }
 
 /* SPONSORS */
 
