@@ -17,7 +17,7 @@
 							<a href="http://colonyultimate.com/team.php">Team</a>
 						</li>
 						<li class="<?php if($page == "results") echo "active"?>">
-							<a href="http://colonyultimate.com/results.php">Team</a>
+							<a href="http://colonyultimate.com/results.php">Results</a>
 						</li>
 						<!-- TODO: Create History Page -->
 						<li class="<?php if($page == "history") echo "active"?>">
