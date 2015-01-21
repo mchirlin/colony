@@ -17,7 +17,7 @@
 
 <div class="row clearfix">
   <div class="col-md-12 column">
-    <?php foreach($oHandlersPill as $player) include("includes/quote.php"); ?>
+    <?php foreach($emails as $email) include("includes/quote.php"); ?>
   </div>
 </div>
 
