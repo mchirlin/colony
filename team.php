@@ -4,6 +4,8 @@
 
 <div role="tabpanel">
 
+	<h2>Players</h2>
+
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#2015" aria-controls="home" role="tab" data-toggle="tab">2015</a></li>
