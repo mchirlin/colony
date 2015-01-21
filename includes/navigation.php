@@ -13,31 +13,11 @@
 							<a href="http://colonyultimate.com">Home</a>
 						</li>
 						<!-- TODO: Create Results Pages -->
-						<li class="<?php if($page == "results") echo "active"?> dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Results<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="http://colonyultimate.com/results/2015.html">2015</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/results/2014.html">2014</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/results/2013.html">2013</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/results/2012.html">2012</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/results/2011.html">2011</a>
-								</li>
-								<li>
-									<a href="http://colonyultimate.com/results/2010.html">2010</a>
-								</li>
-							</ul>
-						</li>
 						<li class="<?php if($page == "team") echo "active"?>">
 							<a href="http://colonyultimate.com/team.php">Team</a>
+						</li>
+						<li class="<?php if($page == "results") echo "active"?>">
+							<a href="http://colonyultimate.com/results.php">Team</a>
 						</li>
 						<!-- TODO: Create History Page -->
 						<li class="<?php if($page == "history") echo "active"?>">
