@@ -37,15 +37,20 @@
 			    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 			</div><!-- /.carousel -->
 			<div class="jumbotron">
-				<h2 class="font_2">
-					<span>About Colony</span>
-				</h2>
-				<p>
-					<span>Formed in 2010 in Sydney, Colony is Australia's premier men's Ultimate club.</span>
-				</p>
-				<p>
-					<a class="btn btn-primary btn-large" href="http://colonyultimate.com/history.html">Learn more</a>
-				</p>
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="font_2">About Colony</h2>
+				    <p>
+					    <span>Formed in 2010 in Sydney, Colony is Australia's premier men's Ultimate club.</span>
+				    </p>
+				    <p>
+					    <a class="btn btn-primary btn-large" href="http://colonyultimate.com/history.html">Learn more</a>
+				    </p>
+          </div>
+          <div class="col-md-7">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/pOYrsWaucts" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
 			</div>
 		</div>
 	</div>
