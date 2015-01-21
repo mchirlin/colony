@@ -48,7 +48,7 @@
     <h3 class="panel-title" contenteditable="true">Offensive Handlers</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($oHandlers as $player) { echo $player[1]; echo "<br />"} ?>
+    <?php foreach($oHandlers as $player) { echo $player[1]; echo "<br />"; } ?>
   </div>
 </div>
 
@@ -57,7 +57,7 @@
     <h3 class="panel-title" contenteditable="true">Offensive Cutters</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($oCutters as $player) { echo $player[1]; echo "<br />"} ?>
+    <?php foreach($oCutters as $player) { echo $player[1]; echo "<br />"; } ?>
   </div>
 </div>
 
@@ -66,7 +66,7 @@
     <h3 class="panel-title" contenteditable="true">Defensive Handlers</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($dHandlers as $player) { echo $player[1]; echo "<br />"} ?>
+    <?php foreach($dHandlers as $player) { echo $player[1]; echo "<br />"; } ?>
   </div>
 </div>
 
@@ -75,6 +75,6 @@
     <h3 class="panel-title" contenteditable="true">Defensive Cutters</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    <?php foreach($dCutters as $player) { echo $player[1]; echo "<br />"} ?>
+    <?php foreach($dCutters as $player) { echo $player[1]; echo "<br />"; } ?>
   </div>
 </div>
