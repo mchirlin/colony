@@ -21,13 +21,13 @@
 			    <div class="item active"><!-- class of active since it's the first item -->
 			      <img src="http://colonyultimate.com/photos/team.jpg" alt="" />
 			      <div class="carousel-caption">
-			        <p>Needs caption</p>
+			        <p></p>
 			      </div>
 			    </div>
 			    <div class="item">
 			      <img src="http://colonyultimate.com/photos/team2.jpg" alt="" />
 			      <div class="carousel-caption">
-			        <p>Needs caption</p>
+			        <p></p>
 			      </div>
 			    </div>
 			  </div><!-- /.carousel-inner -->
@@ -60,7 +60,7 @@
 		</div>
 		<div class="col-md-4 column">
 			<!-- TODO: Update following content -->
-			<h2>
+			<!--<h2>
 				Heading
 			</h2>
 			<p>
@@ -68,7 +68,7 @@
 			</p>
 			<p>
 				<a class="btn" href="#">View details</a>
-			</p>
+			</p>-->
 		</div>
 		<div class="col-md-4 column">
 			<div class="fb-like-box" data-href="https://www.facebook.com/ColonyUltimate" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
