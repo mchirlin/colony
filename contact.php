@@ -21,7 +21,7 @@
             </p>
             <span class="label label-danger">TWITTER</span>
             <p>
-              <a href="http://twitter.com/colonyultimate">colonyultimate</a>
+              <a href="http://twitter.com/ColonySYD">colonyultimate</a>
             </p>
           </div>
         </div>

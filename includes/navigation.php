@@ -68,15 +68,15 @@
 							<a href="http://colonyultimate.com/contact.php">Contact</a>
 						</li>
 					</ul>
-					<form class="navbar-form navbar-left" role="search">
+					<!--<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
 							<input type="text" class="form-control">
 						</div> <button type="submit" class="btn btn-default">Submit</button>
-					</form>
+					</form>-->
 					<ul class="nav navbar-nav navbar-right">
 						<ul id="social">
 							<li class="facebook"><a href="http://facebook.com/ColonyUltimate" title="Facebook" target="_blank">Facebook</a></li>
-							<li class="twitter"><a href="http://twitter.com/colonyultimate" title="Twitter" target="_blank">Twitter</a></li>
+							<li class="twitter"><a href="http://twitter.com/ColonySYD" title="Twitter" target="_blank">Twitter</a></li>
 							<li class="youtube"><a href="#" title="YouTube" target="_blank">YouTube</a></li>
             </ul>
 					</ul>
