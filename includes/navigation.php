@@ -20,11 +20,16 @@
 							<a href="http://colonyultimate.com/results.php">Results</a>
 						</li>
 						<!-- TODO: Create History Page -->
-						<li class="<?php if($page == "history") echo "active"?>">
-							<a href="http://colonyultimate.com/history.html">History</a>
-						</li>
-						<li class="<?php if($page == "quotes") echo "active"?>">
-							<a href="http://colonyultimate.com/quotes.php">Quotes</a>
+						<li class="<?php if($page == "history") echo "active"?> dropdown">
+							<a href="http://colonyultimate.com/history.html" class="dropdown-toggle" data-toggle="dropdown">History</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="http://colonyultimate.com/history.php">History</a>
+								</li>
+								<li>
+									<a href="http://colonyultimate.com/quotes.php">Quotes</a>
+								</li>
+							</ul>
 						</li>
 						<li class="<?php if($page == "contact") echo "active"?>">
 							<a href="http://colonyultimate.com/contact.php">Contact</a>
