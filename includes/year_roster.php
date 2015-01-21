@@ -10,35 +10,12 @@
   
   fclose($rosterFile);
 	
-	$oHandlersPill = array();
-	$oCuttersPill = array();
-	$dHandlersPill = array();
-	$dCuttersPill = array();
-	
-  $oHandlersPlun = array();
-	$oCuttersPlun = array();
-	$dHandlersPlun = array();
-	$dCuttersPlun = array();
+	$pillage = array();
+	$plunder = array();
 	
 	foreach ($roster as $key => $value) {
-	  switch ($value[5]) {
-	    case 'OH':
-	      if($value[2] == 'Pillage') array_push($oHandlersPill, $value);
-	      else array_push($oHandlersPlun, $value);
-	      break;
-	    case 'OC':
-	      if($value[2] == 'Pillage') array_push($oCuttersPill, $value);
-	      else array_push($oCuttersPlun, $value);
-	      break;
-	    case 'DH':
-	      if($value[2] == 'Pillage') array_push($dHandlersPill, $value);
-	      else array_push($dHandlersPlun, $value);
-	      break;
-	    case 'DC':
-	      if($value[2] == 'Pillage') array_push($dCuttersPill, $value);
-	      else array_push($dCuttersPlun, $value);
-	      break;
-	  }
+	  if($value[2] == 'Pillage') array_push($pillage, $value);
+	  else array_push($plunder, $value);
 	}
 ?>
 
@@ -47,37 +24,10 @@
   	<img class="img-responsive" src="http://colonyultimate.com/img/pillage.png">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Offensive Handlers</h3>
+        <h3 class="panel-title">Roster</h3>
       </div>
       <div class="panel-body">
-        <?php foreach($oHandlersPill as $player) include("includes/player_bio.php"); ?>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Offensive Cutters</h3>
-      </div>
-      <div class="panel-body">
-        <?php foreach($oCuttersPill as $player) include("includes/player_bio.php"); ?>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Defensive Handlers</h3>
-      </div>
-      <div class="panel-body">
-        <?php foreach($dHandlersPill as $player) include("includes/player_bio.php"); ?>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Defensive Cutters</h3>
-      </div>
-      <div class="panel-body">
-        <?php foreach($dCuttersPill as $player) include("includes/player_bio.php"); ?>
+        <?php foreach($pillage as $player) include("includes/player_bio.php"); ?>
       </div>
     </div>
   </div>
@@ -85,37 +35,10 @@
   	<img class="img-responsive" src="http://colonyultimate.com/img/plunder.png">
   	<div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Offensive Handlers</h3>
+        <h3 class="panel-title">Roster</h3>
       </div>
       <div class="panel-body">
-        <?php foreach($oHandlersPlun as $player) include("includes/player_bio.php"); ?>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Offensive Cutters</h3>
-      </div>
-      <div class="panel-body">
-        <?php foreach($oCuttersPlun as $player) include("includes/player_bio.php"); ?>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Defensive Handlers</h3>
-      </div>
-      <div class="panel-body">
-        <?php foreach($dHandlersPlun as $player) include("includes/player_bio.php"); ?>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Defensive Cutters</h3>
-      </div>
-      <div class="panel-body">
-        <?php foreach($dCuttersPlun as $player) include("includes/player_bio.php"); ?>
+        <?php foreach($plunder as $player) include("includes/player_bio.php"); ?>
       </div>
     </div>
   </div>
