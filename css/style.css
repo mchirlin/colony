@@ -1,3 +1,5 @@
+/* SOCIAL */
+
 .navbar #social li {
 	display: block;
 	margin-top: 10px;
@@ -26,3 +28,41 @@
 .navbar #social .youtube a:active { background-position: -68px -68px; }
 .navbar #social .gplus a:active { background-position: -102px -68px; }
 .navbar #social .rssfeed a:active { background-position: -136px -68px; }
+
+/* SPONSORS */
+
+#sponsors {
+	clear: both;
+	background: #f0f0f0;
+	border-top: 1px solid #ccc;
+	border-color: rgba(128,128,128,0.4);
+}
+.sponsors {
+	padding: 10px 10px 0px;
+	text-align: center;
+	margin: 0;
+}
+
+.sponsors2 {
+	padding: 0px 10px 10px;
+	text-align: center;
+	margin: 0;
+}
+.sponsors li,.sponsors2 li {
+	margin: 12px;
+	display: inline;
+	font-size: 24px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.sponsors li a,.sponsors2 li a {
+	color: #333;
+}
+#content .sponsor-details {
+	padding: 20px;
+}
+#content .sponsor-details .sponsor-logo {
+	text-align: center;
+}
+.sponsor-details .entry-content {	
+	margin-top: 10px;
+}
