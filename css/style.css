@@ -1,0 +1,27 @@
+.social_bookmarks{
+  border:medium none;
+  display:block;
+  float:right;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.social_bookmarks li {
+  float:left;
+  margin:0 7px 0 0;
+  width:35px;
+}
+
+.social_bookmarks li a {
+  border:medium none;
+  display:block;
+  float:left;
+  height: 35px;
+  padding:0;
+  text-indent:-9999px;
+  width:35px;
+  outline: none;
+}
+
+.social_bookmarks .facebook a{background: transparent url('https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png') 0 0  no-repeat;}
+.social_bookmarks .twitter a{background: transparent url('https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png') 0 0  no-repeat;}
