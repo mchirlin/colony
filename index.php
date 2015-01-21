@@ -2,6 +2,16 @@
 <?php include("includes/header.php"); ?>
 <?php include("includes/navigation.php"); ?>
 
+		<div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1607303849498270&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <div class="row clearfix">
     <div class="col-md-12 column">
 			<!--  Carousel - consult the Twitter Bootstrap docs at 
@@ -44,12 +54,6 @@
 		  <a class="twitter-timeline" href="https://twitter.com/ColonySYD" data-widget-id="555969728133361664">Tweets by @ColonySYD</a>
 		</div>
 		<div class="col-md-4 column">
-			<div class="fb-like-box" data-href="https://www.facebook.com/ColonyUltimate" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-			<p>
-				<a class="btn" href="#">View details</a>
-			</p>
-		</div>
-		<div class="col-md-4 column">
 			<!-- TODO: Update following content -->
 			<h2>
 				Heading
@@ -60,6 +64,9 @@
 			<p>
 				<a class="btn" href="#">View details</a>
 			</p>
+		</div>
+		<div class="col-md-4 column">
+			<div class="fb-like-box" data-href="https://www.facebook.com/ColonyUltimate" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
 		</div>
 	</div>
 
