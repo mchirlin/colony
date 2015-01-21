@@ -24,19 +24,19 @@
 	  switch ($value[5]) {
 	    case 'OH':
 	      if($value[2] == 'Pillage') array_push($oHandlersPill, $value);
-	      else if($value[2] == 'Pillage') array_push($oHandlersPlun, $value);
+	      else array_push($oHandlersPlun, $value);
 	      break;
 	    case 'OC':
 	      if($value[2] == 'Pillage') array_push($oCuttersPill, $value);
-	      else if($value[2] == 'Pillage') array_push($oCuttersPlun, $value);
+	      else array_push($oCuttersPlun, $value);
 	      break;
 	    case 'DH':
 	      if($value[2] == 'Pillage') array_push($dHandlersPill, $value);
-	      else if($value[2] == 'Pillage') array_push($dHandlersPlun, $value);
+	      else array_push($dHandlersPlun, $value);
 	      break;
 	    case 'DC':
 	      if($value[2] == 'Pillage') array_push($dCuttersPill, $value);
-	      else if($value[2] == 'Pillage') array_push($dCuttersPlun, $value);
+	      else array_push($dCuttersPlun, $value);
 	      break;
 	  }
 	}
