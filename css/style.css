@@ -31,12 +31,6 @@
 
 /* SPONSORS */
 
-#sponsors {
-	clear: both;
-	background: #f0f0f0;
-	border-top: 1px solid #ccc;
-	border-color: rgba(128,128,128,0.4);
-}
 .sponsors {
 	padding: 10px 10px 0px;
 	text-align: center;
