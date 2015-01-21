@@ -71,3 +71,10 @@
   width: 100px;
   position: relative;
 }
+
+.number {
+	background: #1d1f1d;
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #272927), color-stop(1, #000100) );
+  background-image: -moz-linear-gradient( center top, #272927 0%, #000100 100% );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272927', endColorstr='#000100');
+}
