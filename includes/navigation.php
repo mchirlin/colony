@@ -21,7 +21,7 @@
 						</li>
 						<!-- TODO: Create History Page -->
 						<li class="<?php if($page == "history") echo "active"?> dropdown">
-							<a href="http://colonyultimate.com/history.html" class="dropdown-toggle" data-toggle="dropdown">History</a>
+							<a href="http://colonyultimate.com/history.html" class="dropdown-toggle" data-toggle="dropdown">History<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
 									<a href="http://colonyultimate.com/history.php">History</a>
