@@ -23,6 +23,9 @@
 						<li class="<?php if($page == "history") echo "active"?>">
 							<a href="http://colonyultimate.com/history.html">History</a>
 						</li>
+						<li class="<?php if($page == "quotes") echo "active"?>">
+							<a href="http://colonyultimate.com/quotes.php">Quotes</a>
+						</li>
 						<li class="<?php if($page == "contact") echo "active"?>">
 							<a href="http://colonyultimate.com/contact.php">Contact</a>
 						</li>
