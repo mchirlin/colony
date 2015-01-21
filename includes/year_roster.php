@@ -1,5 +1,4 @@
 <?php
-  $year = '2015';
   $playerFile = fopen("data/players.csv","r");
   $players = array();
   
@@ -41,8 +40,6 @@
 	      break;
 	  }
 	}
-	
-	print_r($oHandlers);
 ?>
 
 
@@ -51,7 +48,7 @@
     <h3 class="panel-title" contenteditable="true">Offensive Handlers</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    Panel content
+    <?php foreach($oHandlers as $player) echo $player[1]; ?>
   </div>
 </div>
 
@@ -60,7 +57,7 @@
     <h3 class="panel-title" contenteditable="true">Offensive Cutters</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    Panel content
+    <?php foreach($oCutters as $player) echo $player[1]; ?>
   </div>
 </div>
 
@@ -69,7 +66,7 @@
     <h3 class="panel-title" contenteditable="true">Defensive Handlers</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    Panel content
+    <?php foreach($dHandlers as $player) echo $player[1]; ?>
   </div>
 </div>
 
@@ -78,6 +75,6 @@
     <h3 class="panel-title" contenteditable="true">Defensive Cutters</h3>
   </div>
   <div class="panel-body" contenteditable="true">
-    Panel content
+    <?php foreach($dCutters as $player) echo $player[1]; ?>
   </div>
 </div>
