@@ -7,8 +7,15 @@
 	$emailFile = fopen("data/emails.csv","r");
   $emails = array();
   
+  $skipFirstLine = true;
+  
   while(! feof($emailFile)) {
     $array = fgetcsv($emailFile);
+    
+    if($skipFirstLine) {
+      $skipFirstLine = false;
+      continue;
+    }
     array_push($emails, $array);
   }
   
