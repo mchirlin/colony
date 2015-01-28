@@ -30,6 +30,12 @@
 			        <p></p>
 			      </div>
 			    </div>
+			    <div class="item">
+			      <img src="http://colonyultimate.com/photos/skateboard.jpg" alt="" />
+			      <div class="carousel-caption">
+			        <p></p>
+			      </div>
+			    </div>
 			  </div><!-- /.carousel-inner -->
 			  <!--  Next and Previous controls below
 			        href values must reference the id for this carousel -->
