@@ -18,7 +18,15 @@
 	  else array_push($plunder, $value);
 	}
 ?>
-
+<script>
+  $(document).ready(function(){
+	  $('.bioBtn').click(function(){
+      $('.modal-body').load('http://colonyultimate.com/team/player_bio.php?id=1',function(result){
+	      $('#myModal').modal({show:true});
+	    });
+    });
+  });
+</script>
 <div class="row clearfix">
   <div class="col-md-6 column">
   	<img class="img-responsive" src="http://colonyultimate.com/team/photos/pillage.png">
@@ -27,7 +35,7 @@
         <h3 class="panel-title">Roster</h3>
       </div>
       <div class="panel-body">
-        <?php foreach($pillage as $player) include("player_bio.php"); ?>
+        <?php foreach($pillage as $player) include("player_box.php"); ?>
       </div>
     </div>
   </div>
@@ -38,8 +46,20 @@
         <h3 class="panel-title">Roster</h3>
       </div>
       <div class="panel-body">
-        <?php foreach($plunder as $player) include("player_bio.php"); ?>
+        <?php foreach($plunder as $player) include("player_box.php"); ?>
       </div>
     </div>
+  </div>
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog">
+	  <div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal">×</button>
+			<h3>Modal header</h3>
+	  </div>
+	  <div class="modal-body">
+		  <p>My modal content here…</p>
+	  </div>
+	  <div class="modal-footer">
+	  	<button class="btn" data-dismiss="modal">Close</button>
+	  </div>
   </div>
 </div>
