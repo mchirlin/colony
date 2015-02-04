@@ -8,7 +8,7 @@
         <p><h2>Contact Us</h2></p> 
         <div class="row clearfix">   
           <div class="col-md-8 column">   
-            <img class="img-responsive" src="http://colonyultimate.com/photos/contactTeam.jpg">
+            <img class="img-responsive" src="http://colonyultimate.com/banners/contactTeam.jpg">
           </div>
           <div class="col-md-4 column">
             <span class="label label-danger">EMAIL</span>

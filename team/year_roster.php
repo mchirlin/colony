@@ -21,7 +21,7 @@
 
 <div class="row clearfix">
   <div class="col-md-6 column">
-  	<img class="img-responsive" src="http://colonyultimate.com/img/pillage.png">
+  	<img class="img-responsive" src="http://colonyultimate.com/team/photos/pillage.png">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">Roster</h3>
@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="col-md-6 column">
-  	<img class="img-responsive" src="http://colonyultimate.com/img/plunder.png">
+  	<img class="img-responsive" src="http://colonyultimate.com/team/photos/plunder.png">
   	<div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">Roster</h3>
