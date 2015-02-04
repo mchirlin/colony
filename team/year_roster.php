@@ -1,6 +1,6 @@
 <?php
 
-	$rosterFile = fopen("data/roster.csv","r");
+  $rosterFile = fopen("../data/roster.csv","r");
   $roster = array();
   
   while(! feof($rosterFile)) {
