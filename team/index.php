@@ -2,9 +2,27 @@
 <?php include("../includes/header.php"); ?>
 <?php include("../includes/navigation.php"); ?>
 
+<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Small Modal</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Modal Body</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div role="tabpanel">
 
-	<h2>Players</h2>
+  <h2>Players</h2>
 
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
@@ -43,7 +61,6 @@
       <?php include("year_roster.php"); ?>
     </div>
   </div>
-
 </div>
 
 <?php include("../includes/footer.php"); ?>

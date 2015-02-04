@@ -86,18 +86,8 @@
   text-align: center;
   padding: 4px 6px;
   display: block;
-
   font-weight: bold;
   position: absolute;
   top: 76px;
   left: 0;
-}
-
-.number a {
-	color: #fff;
-  height: 16px;
-  line-height: 16px;
-  min-width: 12px;
-  text-align: center;
-  display: block;
 }

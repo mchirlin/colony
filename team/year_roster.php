@@ -21,7 +21,7 @@
 <script>
   $(document).ready(function(){
 	  $('.bioBtn').click(function(){
-      $('.modal-body').load('http://colonyultimate.com/team/player_bio.php?id=1',function(result){
+      $('.modal-body').load('/player_bio',function(result){
 	      $('#myModal').modal({show:true});
 	    });
     });
@@ -49,17 +49,5 @@
         <?php foreach($plunder as $player) include("player_box.php"); ?>
       </div>
     </div>
-  </div>
-  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog">
-	  <div class="modal-header">
-		  <button type="button" class="close" data-dismiss="modal">×</button>
-			<h3>Modal header</h3>
-	  </div>
-	  <div class="modal-body">
-		  <p>My modal content here…</p>
-	  </div>
-	  <div class="modal-footer">
-	  	<button class="btn" data-dismiss="modal">Close</button>
-	  </div>
   </div>
 </div>
