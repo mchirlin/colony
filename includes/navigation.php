@@ -14,7 +14,7 @@
 						</li>
 						<!-- TODO: Create Results Pages -->
 						<li class="<?php if($page == "team") echo "active"?>">
-							<a href="http://colonyultimate.com/team.php">Team</a>
+							<a href="http://colonyultimate.com/team/">Team</a>
 						</li>
 						<li class="<?php if($page == "results") echo "active"?>">
 							<a href="http://colonyultimate.com/results.php">Results</a>
