@@ -82,7 +82,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272927', endColorstr='#000100');
   color: #fff;
   line-height: 16px;
-  min-width: 12px;
+  min-width: 20px;
+  min-height: 24px;
   text-align: center;
   padding: 4px 6px;
   display: block;
