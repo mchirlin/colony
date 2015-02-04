@@ -27,7 +27,7 @@
         <h3 class="panel-title">Roster</h3>
       </div>
       <div class="panel-body">
-        <?php foreach($pillage as $player) include("includes/player_bio.php"); ?>
+        <?php foreach($pillage as $player) include("player_bio.php"); ?>
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@
         <h3 class="panel-title">Roster</h3>
       </div>
       <div class="panel-body">
-        <?php foreach($plunder as $player) include("includes/player_bio.php"); ?>
+        <?php foreach($plunder as $player) include("player_bio.php"); ?>
       </div>
     </div>
   </div>
