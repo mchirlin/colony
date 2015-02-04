@@ -58,7 +58,6 @@ Year,Name,Team,Number,Bio,Position
 2011,Michael Thomas,Pillage,,,OH
 2011,Nathan Stacey,Pillage,11,,OH
 2011,Nathan Wong,Pillage,,,OH
-2011,Yew Eng Ng,Plunder,,,OH
 2011,Ollie Dousset,Plunder,,,OH
 2011,Peter Blakeley,Pillage,23,,OH
 2011,Peter Gardner,Plunder,,,OH
@@ -67,6 +66,7 @@ Year,Name,Team,Number,Bio,Position
 2011,Sacha Vidler,Pillage,,,OH
 2011,Stephen Antonopoulos,Pillage,,,OH
 2011,Tiger Webb,Pillage,,,OH
+2011,Yew Eng Ng,Plunder,,,OH
 2012,Alec Deslandes,Plunder,19,,OH
 2012,Andrew Glover,Pillage,13,,OH
 2012,Angus Keenan,Pillage,9,,OH
@@ -93,7 +93,6 @@ Year,Name,Team,Number,Bio,Position
 2012,Matthew Oswald,Plunder,44,,OH
 2012,Max Stenstrom,Pillage,8,,OH
 2012,Nathan Stacey,Pillage,11,,OH
-2012,Yew Eng Ng,Plunder,66,,OH
 2012,Nicholas Dowle,Plunder,5,,OH
 2012,Nick Dousset,Pillage,46,,OH
 2012,Ollie Dousset,Plunder,42,,OH
@@ -107,6 +106,7 @@ Year,Name,Team,Number,Bio,Position
 2012,Tim Gee,Pillage,28,,OH
 2012,Tom Tulett,Plunder,85,,OH
 2012,Will Norton,Pillage,41,,OH
+2012,Yew Eng Ng,Plunder,66,,OH
 2013,Alec Deslandes,Pillage,,,OH
 2013,Alex Ladomatos,Plunder,,,OH
 2013,Andy Wood,Plunder,,,OH
@@ -120,7 +120,6 @@ Year,Name,Team,Number,Bio,Position
 2013,Felix Nguyen,Plunder,,,OH
 2013,Gavin Moore,Pillage,1,,OC
 2013,Hamish Furniss,Pillage,,,OH
-2013,Michael Thomas,Plunder,36,,OH
 2013,James Yorston,Pillage,8,,OH
 2013,Janek Savage,Plunder,,,OH
 2013,Jimmy Tod-Hill,Pillage,22,,DC
@@ -130,6 +129,7 @@ Year,Name,Team,Number,Bio,Position
 2013,Mark Taylor,Plunder,12,,OH
 2013,Matt Dowle,Plunder,80,,OH
 2013,Max Hodgson,Pillage,,,OH
+2013,Michael Thomas,Plunder,36,,OH
 2013,Nathan Linforth,Plunder,13,,OH
 2013,Nathan Stacey,Pillage,11,,OH
 2013,Nick Dousset,Pillage,,,OH
@@ -155,16 +155,15 @@ Year,Name,Team,Number,Bio,Position
 2014,Gavin Moore,Pillage,1,,OC
 2014,Greg Wu,Plunder,,,OH
 2014,Hamish Furniss,Plunder,,,OH
-2014,Michael Thomas,Pillage,36,,OH
 2014,James Yorston,Pillage,8,,OH
 2014,Janek Savage,Pillage,150,,OH
 2014,Jimmy Tod-Hill,Pillage,22,,DC
 2014,Joel Pillar,Plunder,,,OH
 2014,Mark Taylor,Pillage,12,,OH
 2014,Matt Dowle,Pillage,80,,OH
+2014,Michael Thomas,Pillage,36,,OH
 2014,Nathan Linforth,Pillage,13,,OH
 2014,Nathan Stacey,Pillage,11,,OH
-2014,Yew Eng Ng,Pillage,,,OH
 2014,Nick Dousset,Plunder,,,OH
 2014,Oliver Jung,Plunder,,,OH
 2014,Ollie Dousset,Plunder,,,OH
@@ -181,6 +180,7 @@ Year,Name,Team,Number,Bio,Position
 2014,Tom Tulett,Pillage,,,OH
 2014,Will Norton,Plunder,,,OH
 2014,Xavier Black,Plunder,,,OH
+2014,Yew Eng Ng,Pillage,,,OH
 2014,Yixuan Tan,Pillage,,,OH
 2014,Zac Chodos,Plunder,,,OH
 2015,Adam Irving,Pillage,10,"Colony’s franchise racist, Adam doesn’t hold much truck with convicts.",OH
@@ -196,13 +196,13 @@ Year,Name,Team,Number,Bio,Position
 2015,Eshan Wickrema,Pillage,5,"The most extensively-researched costume department on the team, Eshan is also known for cutting his arm off at the shoulder whilst screaming “you have failed me for the last time!”. Its replacement is going great guns though.",OH
 2015,Gavin Moore,Plunder,1,Historically the worst forehand since the invention of the forehand to ever carry a team to four consecutive national titles. Best beer fridge on the squad; the two have not been proven to be related.,OC
 2015,Graeme Barber,Plunder,16,"Notorious for instigating the 2011 Vancouver Riots, Graeme has moved his life to Sydney in the vain hope of the heat dying down. Tormented by many demons.",OH
-2015,Michael Thomas,Plunder,36,Henry ‘Michael’ Thomas proudly holds the best individual for-vs-against score for Sydney’s NSL Autumn and Spring Leagues. Famed for his resemblance to a train in an ABC children’s show.,OC
 2015,James Yorston,Pillage,8,"When he first picked up a the disc, Papa JY’s extensive experience as a famed performer in the Cirque de Soleil, the storied Australian Mens Synchronised Swimming Team, and the Australian Ballet all congealed perfectly into Australia’s best forehand fake. Legendary within the team for his Hunter-Killer-esque Tournament Mode.",OH
 2015,Jimmy Tod-Hill,Plunder,22,"A reformed goth and the most punk-rock poetry student on the team, Jimmy is certain to be found pre-game growling and frothing to himself before games. In the interests of the public, this is how he can be found outside of tournaments also.",DC
 2015,Lucas Nicholls,Pillage,24,"With a capacity for spectacular reflex diving exceeded only by top Italian football players and reflexes honed by solid decades of first-person shooters, Lucas had almost given up trying to kill himself skateboarding before he found his new passion: trying to kill himself playing Ultimate.",OH
 2015,Mark Evans,Plunder,14,"Colony’s best-moisturised player, Mark is also the only non-player in the history of Ultimate to knock a team (Doublewide) out of pre-quarters at WUCC, earning him the formidable mantle of the Deadliest 8th Man in the sport.",OH
 2015,Mark Taylor,Plunder,12,"Mark ‘Tubby’ Taylor is the only known Ultimate player to have a famous cricketer and terrible commentator retroactively nicknamed after them. Empirically rated as Australia’s dreamiest player, in 2011 he came the closest of all Colony players yet to killing a man for a teammate.",OH
 2015,Matt Dowle,Plunder,80,"Men want to be him. Ladies also want to be him. Matt Dowle is one of Australian Ultimate’s most storied players, and with good reason – the guy is goddamn phenomenal at barefoot bowls.",OH
+2015,Michael Thomas,Plunder,36,Henry ‘Michael’ Thomas proudly holds the best individual for-vs-against score for Sydney’s NSL Autumn and Spring Leagues. Famed for his resemblance to a train in an ABC children’s show.,OC
 2015,Mike Chirlin,Pillage,2,"Captain of the little league checking line. If his nickname by the end of this season is not ‘The Artillery’ or ‘The Cavalry’, this punter will have to eat his hat.",OH
 2015,Mike Neild,Plunder,7,"Australian Ultimate’s reigning bare-knuckle tentboxing champion, and wearer of the mantle of AFDA’s Most Photogenic Blocks, Mike is also well-known for his consistent invoking of the stoke for the boys.",OC
 2015,Nathan Linforth,Plunder,13,"Also known as the Golden Gloves, some of Linny’s claims to fame include that he runs his own swimwear line, and that his brother was Australia’s most eligible bachelor. Speaks phenomenally efficient Swedish.",OH
