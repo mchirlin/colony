@@ -17,17 +17,17 @@
 							<a href="http://colonyultimate.com/team/">Team</a>
 						</li>
 						<li class="<?php if($page == "results") echo "active"?>">
-							<a href="http://colonyultimate.com/results.php">Results</a>
+							<a href="http://colonyultimate.com/results/">Results</a>
 						</li>
 						<!-- TODO: Create History Page -->
 						<li class="<?php if($page == "history") echo "active"?> dropdown">
-							<a href="http://colonyultimate.com/history.html" class="dropdown-toggle" data-toggle="dropdown">History<strong class="caret"></strong></a>
+							<a href="http://colonyultimate.com/history/" class="dropdown-toggle" data-toggle="dropdown">History<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="http://colonyultimate.com/history.php">History</a>
+									<a href="http://colonyultimate.com/history/">History</a>
 								</li>
 								<li>
-									<a href="http://colonyultimate.com/quotes.php">Quotes</a>
+									<a href="http://colonyultimate.com/quotes/">Quotes</a>
 								</li>
 							</ul>
 						</li>
@@ -35,7 +35,7 @@
 							<a href="http://colonyultimate.com/contact/">Contact</a>
 						</li>
 						<li class="<?php if($page == "sponsors") echo "active"?>">
-							<a href="http://colonyultimate.com/sponsors.php">Sponors</a>
+							<a href="http://colonyultimate.com/sponsors/">Sponors</a>
 						</li>
 					</ul>
 					<!--<form class="navbar-form navbar-left" role="search">
