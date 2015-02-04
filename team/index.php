@@ -1,6 +1,6 @@
 <?php $page = "team"; ?>
-<?php include("includes/header.php"); ?>
-<?php include("includes/navigation.php"); ?>
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div role="tabpanel">
 
@@ -20,30 +20,30 @@
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="2015">
       <?php $year = 2015; ?>
-      <?php include("includes/year_roster.php"); ?>
+      <?php include("year_roster.php"); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="2014">
       <?php $year = 2014; ?>
-      <?php include("includes/year_roster.php"); ?>
+      <?php include("year_roster.php"); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="2013">
       <?php $year = 2013; ?>
-      <?php include("includes/year_roster.php"); ?>
+      <?php include("year_roster.php"); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="2012">
       <?php $year = 2012; ?>
-      <?php include("includes/year_roster.php"); ?>
+      <?php include("year_roster.php"); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="2011">
       <?php $year = 2011; ?>
-      <?php include("includes/year_roster.php"); ?>
+      <?php include("year_roster.php"); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="2010">
       <?php $year = 2010; ?>
-      <?php include("includes/year_roster.php"); ?>
+      <?php include("year_roster.php"); ?>
     </div>
   </div>
 
 </div>
 
-<?php include("includes/footer.php"); ?>
+<?php include("../includes/footer.php"); ?>
