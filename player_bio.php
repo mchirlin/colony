@@ -22,15 +22,35 @@
 </div>
 <div class="modal-body">
 <div class="row clearfix">
-  <div class="col-md-4 column">
-  	<div class="photo">
-      <img src="http://colonyultimate.com/team/photos/<?php if (file_exists('photos/' . strtolower(str_replace(" ", "-", $player[1])) . '.png')) echo strtolower(str_replace(" ", "-", $player[1])); else if($player[2] == "Pillage") echo 'nophoto'; else echo 'nophoto2'; ?>.png" />
+  <div class="col-md-2 column">
+  	<div class="player">
+  	  <div class="photo">
+        <img src="http://colonyultimate.com/team/photos/<?php if (file_exists('photos/' . strtolower(str_replace(" ", "-", $player[1])) . '.png')) echo strtolower(str_replace(" ", "-", $player[1])); else if($player[2] == "Pillage") echo 'nophoto'; else echo 'nophoto2'; ?>.png" />
+      </div>
+      <div class="number"><?php echo $player[3]; ?></div>
     </div>
   </div>
-  <div class="col-md-8 column">
-    Number: <?php echo $player[3]; ?><br />
-    Bio:<br />
-    Years on team: <?php echo implode(', ', $years); ?>
+  <div class="col-md-10 column">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-sm-3 control-label"><span class="label label-danger">Number</span></label>
+        <div class="col-sm-9">
+          <p class="form-control-static"><?php echo $player[3]; ?></p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="col-sm-3 control-label"><span class="label label-danger">Bio</span></label>
+        <div class="col-sm-9">
+          <p class="form-control-static"><?php echo $player[4]; ?></p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="col-sm-3 control-label"><span class="label label-danger">Years on team</span></label>
+        <div class="col-sm-9">
+          <p class="form-control-static"><?php echo implode(', ', $years); ?></p>
+        </div>
+      </div>
+    </form>
   </div>
 </div>
 <div class="modal-footer">
