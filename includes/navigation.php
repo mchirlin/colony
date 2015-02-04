@@ -32,7 +32,7 @@
 							</ul>
 						</li>
 						<li class="<?php if($page == "contact") echo "active"?>">
-							<a href="http://colonyultimate.com/contact.php">Contact</a>
+							<a href="http://colonyultimate.com/contact/">Contact</a>
 						</li>
 						<li class="<?php if($page == "sponsors") echo "active"?>">
 							<a href="http://colonyultimate.com/sponsors.php">Sponors</a>
