@@ -33,12 +33,6 @@
   <div class="col-md-10 column">
     <form class="form-horizontal">
       <div class="form-group">
-        <label class="col-sm-3 control-label"><span class="label label-danger">Number</span></label>
-        <div class="col-sm-9">
-          <p class="form-control-static"><?php echo $player[3]; ?></p>
-        </div>
-      </div>
-      <div class="form-group">
         <label for="inputPassword" class="col-sm-3 control-label"><span class="label label-danger">Bio</span></label>
         <div class="col-sm-9">
           <p class="form-control-static"><?php echo $player[4]; ?></p>
